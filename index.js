@@ -37,7 +37,7 @@ app.use("/api/quiz", quizRouter);
 app.use("/api/level2", level2Router);
 app.use("/api/level3", level3Router);
 
-const PORT = 7001; // Listen only on localhost
+const PORT = 7005; // Listen only on localhost
 connectDB();
 app.listen(PORT, "localhost", () => {
   console.log(`Server running on http://localhost:${PORT}`);
