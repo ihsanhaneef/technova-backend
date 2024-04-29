@@ -38,7 +38,11 @@ app.use("/api/level2", level2Router);
 app.use("/api/level3", level3Router);
 
 const PORT = 7000; // Listen only on localhost
+// connectDB();
+// app.listen(PORT, "localhost", () => {
+//   console.log(`Server running on http://localhost:${PORT}`);
+// });
 connectDB();
-app.listen(PORT, "localhost", () => {
-  console.log(`Server running on http://localhost:${PORT}`);
+app.listen(PORT, "0.0.0.0", () => {
+  console.log(`Server running on http://0.0.0.0:${PORT}`);
 });
