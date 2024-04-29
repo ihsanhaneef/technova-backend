@@ -15,7 +15,7 @@ const puzzleScore = 100; // Assuming the puzzle score
 
 const scriptCode = [
   ["ihsan", "ihsan2"],
-  ["hisham1", "hisham2", "hisham3"],
+  ["hisham1", "hisham2", "varsha"],
   ["dilshad"],
 ];
 
