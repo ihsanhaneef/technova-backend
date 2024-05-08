@@ -17,7 +17,7 @@ const scriptCode = [
   ["ihsan", "ihsan2"],
   ["hisham1", "hisham2", "varsha"],
   ["dilshad"],
-  ["level4s1"],["level4s2"],
+  ["level4s1","level4s2"],
 ];
 
 const scores = [[0, 100], [101, 102, 103], [104],[105,106],];
