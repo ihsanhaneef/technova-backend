@@ -9,7 +9,7 @@ const router = express.Router();
 router.post("/register", register);
 router.post("/login", login);
 router.get("/profile",authMiddleWare, profile);
-router.get("AllUser", authMiddleWare, usersDetails);
+router.get("/AllUser", authMiddleWare, usersDetails);
 
 export const userRoute = router;
 
