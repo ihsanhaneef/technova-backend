@@ -21,7 +21,7 @@ const scriptCode = [
   ["l5c1","l5c2","l5c3","l5c4"]
 ];
 
-const scores = [[0, 50], [50, 100, 100], [120], [130, 150],[1, 1, 1, 250]];
+const scores = [[0, 50], [50, 100, 100], [120], [130, 150],[0, 0, 0, 250]];
 
 router.post("/evaluate", authMiddleWare, async (req, res) => {
   try {
