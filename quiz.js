@@ -14,13 +14,14 @@ const totalScore = 200; // Assuming the total score
 const puzzleScore = 100; // Assuming the puzzle score
 
 const scriptCode = [
-  ["ihsan", "ihsan2"],
-  ["hisham1", "hisham2", "varsha"],
-  ["dilshad"],
-  ["level4s1", "level4s2"], 
+  ["ihsan", "l1r2"],
+  ["l2r1", "l2r2", "l2r3"],
+  ["l3r1"],
+  ["l4r1", "l4r2"], 
+  ["l5c1","l5c2","l5c3","l5c4"]
 ];
 
-const scores = [[0, 100], [101, 102, 103], [104], [105, 106]];
+const scores = [[0, 50], [50, 100, 100], [120], [130, 150],[0, 0, 0, 250]];
 
 router.post("/evaluate", authMiddleWare, async (req, res) => {
   try {
