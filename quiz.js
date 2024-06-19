@@ -5,8 +5,31 @@ const router = express.Router();
 
 const correctAnswers = {
   q1: "a",
-  q2: "c",
-  q3: "a",
+  q2: "b",
+  q3: "c",
+  q4: "a",
+  q5: "c",
+  q6: "b",
+  q7: "a",
+  q8: "c",
+  q9: "a",
+  q10: "b",
+  q11: "c",
+  q12: "d",
+  q13: "c",
+  q14: "a",
+  q15: "d",
+  q16: "c",
+  q17: "d",
+  q18: "a",
+  q19: "a",
+  q20: "a",
+  q21: "b",
+  q22: "a",
+  q23: "c",
+  q24: "b",
+  q25: "c",
+
 };
 
 // Define totalScore and puzzleScore
