@@ -4,6 +4,8 @@ import bodyParser from "body-parser";
 import cors from "cors";
 import mongoose from "mongoose";
 import "dotenv/config";
+import job from "./cron.js";
+
 
 import quizRouter from "./quiz.js";
 import level2Router from "./level2.js";
@@ -46,5 +48,8 @@ connectDB();
 app.listen(PORT, "0.0.0.0", () => {
   console.log(`Server running on http://0.0.0.0:${PORT}`);
 });
+
+job.start();
+
  //test
  
